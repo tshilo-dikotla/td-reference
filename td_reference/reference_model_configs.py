@@ -5,7 +5,10 @@ site_reference_configs.register_from_visit_schedule(
         'edc_appointment.appointment': 'td_maternal.maternalvisit'})
 
 configs = {
+    'td_maternal.maternalultrasoundinitial': ['number_of_gestations'],
     'td_maternal.maternalcontraception': ['srh_referral'],
+    'td_maternal.maternalpostpartumdep': ['maternal_visit'],
+
 }
 
 for reference_name, fields in configs.items():
