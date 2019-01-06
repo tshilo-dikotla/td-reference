@@ -12,6 +12,7 @@ configs = {
     'td_maternal.maternalpostpartumdep': ['laugh'],
     'td_infant.infantdeathreport': ['death_date'],
     'td_infant.infantnvpdispensing': ['nvp_prophylaxis'],
+    'td_infant.infantarvproph': ['arv_status'],
     #     'td_infant.infantarvprophmod': ['dose_status'],
     'td_infant.infantfu': ['has_dx', 'physical_assessment'],
     'td_infant.infantfeeding': ['formula_intro_occur'],
