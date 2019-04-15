@@ -15,8 +15,8 @@ configs = {
     'td_infant.infantarvproph': ['arv_status'],
     'td_infant.infantfu': ['has_dx', 'physical_assessment'],
     'td_infant.infantfeeding': ['formula_intro_occur'],
-    'td_infant.infantbirthdata': ['congenital_anomalities']
-
+    'td_infant.infantbirthdata': ['congenital_anomalities'],
+    'td_infant.karabotuberculosishistory': ['put_offstudy']
 }
 
 for reference_name, fields in configs.items():
