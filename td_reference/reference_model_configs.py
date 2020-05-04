@@ -11,6 +11,8 @@ configs = {
     'td_maternal.maternalcontraception': ['srh_referral'],
     'td_maternal.rapidtestresult': ['result_date'],
     'td_maternal.maternalpostpartumdep': ['laugh'],
+    'td_maternal.cliniciannotes': ['consent_model'],
+    'td_infant.infantcliniciannotes': ['consent_model'],
     'td_infant.infantnvpdispensing': ['nvp_prophylaxis'],
     'td_infant.infantarvproph': ['arv_status'],
     'td_infant.infantfu': ['has_dx', 'physical_assessment'],
